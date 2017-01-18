@@ -4,6 +4,16 @@ download.file("https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/
 gapminder <- read.csv("gapminder-FiveYearData.csv")
 
 
+#Create plot
+
+
+
+#savee plot
+ggsave(filename = "year_vs_lifeEXp_percent.png" , width = 5, height = 4, units = "in")
+
+
+
+
 
 is_2007 <- gapminder$year ==2007
 is_Africa <- gapminder$continent =="Africa"
